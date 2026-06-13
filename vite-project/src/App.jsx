@@ -20,10 +20,12 @@ function Counter() {
   }
     return (
       <>
-        <h1 className="text-center bg-blue-500 text-white px-4 py-2 font-bold hover:bg-blue-600 rounded">Count is {count}</h1>
+        <h1 className="text-center text-2xl font-bold bg-blue-500 text-white px-4 py-2 hover:bg-blue-600 rounded">Count is {count}</h1>
+        <div className="flex justify-center items-center h-screen">
         <button onClick={increment} className="text-center bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded" >
           Click me
         </button>
+        </div>
       </>
     );
   }
